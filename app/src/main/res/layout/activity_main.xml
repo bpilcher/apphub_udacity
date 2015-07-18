@@ -21,24 +21,23 @@
         android:layout_marginTop="50dp"
         android:maxWidth="225dp"
         android:minWidth="225dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2"
         android:onClick="buttonPressed"
-        />
+        android:background="#506EE5"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button2"
         android:id="@+id/button2"
-        android:layout_marginTop="5dp"
-        android:longClickable="false"
+        android:layout_marginTop="8dp"
         android:maxWidth="225dp"
         android:minWidth="225dp"
         android:onClick="buttonPressed"
         android:layout_below="@+id/button1"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="#506EE5" />
 
     <Button
         android:layout_width="wrap_content"
@@ -47,11 +46,11 @@
         android:id="@+id/button3"
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="8dp"
         android:maxWidth="225dp"
         android:minWidth="225dp"
         android:onClick="buttonPressed"
-        />
+        android:background="#506EE5" />
 
     <Button
         android:layout_width="wrap_content"
@@ -60,11 +59,11 @@
         android:id="@+id/button4"
         android:layout_below="@+id/button3"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="8dp"
         android:maxWidth="225dp"
         android:minWidth="225dp"
         android:onClick="buttonPressed"
-        />
+        android:background="#506EE5" />
 
     <Button
         android:layout_width="wrap_content"
@@ -73,11 +72,11 @@
         android:id="@+id/button5"
         android:layout_below="@+id/button4"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="8dp"
         android:maxWidth="225dp"
         android:minWidth="225dp"
         android:onClick="buttonPressed"
-        />
+        android:background="#506EE5" />
 
     <Button
         android:layout_width="wrap_content"
@@ -86,10 +85,10 @@
         android:id="@+id/button6"
         android:layout_below="@+id/button5"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="8dp"
         android:maxWidth="225dp"
         android:minWidth="225dp"
         android:onClick="buttonPressed"
-        />
+        android:background="#555" />
 
 </RelativeLayout>
